@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "alice-russian-jokes"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1ggn4cqjnvdza"
+s3_prefix = "alice-russian-jokes"
+region = "eu-central-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+parameter_overrides = "JokesSupplierUrl=\"http://rzhunemogu.ru/RandJSON.aspx?CType=\""
