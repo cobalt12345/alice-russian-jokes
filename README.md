@@ -7,5 +7,7 @@ Jokes are taken from third party external service via simple HTTP GET method ret
 
 ## Application Architecture
 
+![Alice Skill Design](https://github.com/cobalt12345/alice-russian-jokes/blob/540f02d1e3e122f33d1ee36eb5e6667b78175d98/alice-skill-design.png)
+
 ## See how it works
 "Anecdotes and Aphorisms" Alice skill in <a href="">Yandex catalogue</a>.
