@@ -9,3 +9,4 @@ region = "eu-central-1"
 capabilities = "CAPABILITY_IAM"
 image_repositories = []
 parameter_overrides = "JokesSupplierUrl=\"http://rzhunemogu.ru/RandJSON.aspx?CType=\""
+disable_rollback = true

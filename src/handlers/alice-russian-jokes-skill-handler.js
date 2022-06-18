@@ -70,6 +70,12 @@ module.exports.skillHandler = async (event) => {
         responseBody.response.text = content;
         responseBody.response.tts = content;
 
+    } else if ((request.type === 'SimpleUtterance' || request.type === 'ButtonPressed')
+        && request?.nlu?.intents?.help) {
+
+        responseBody.response.text = i18n.ru_RU.MSG_HELP.text();
+        responseBody.response.tts = i18n.ru_RU.MSG_HELP.tts();
+
     } else if((request.type === 'SimpleUtterance' || request.type === 'ButtonPressed') && request?.nlu?.intents?.exit) {
         responseBody.response.end_session = true;
         responseBody.response.text = i18n.ru_RU.MSG_GOODBYE.text();
