@@ -11,5 +11,7 @@ Jokes are taken from third party external service via simple HTTP GET method ret
 
 ## See how it works
 "Anecdotes and Aphorisms" Alice skill in <a href="">Yandex catalogue</a>.
-
+<h1>
+<span>&#9888;</span>
 <important>Skill has failed Yandex moderation :( I'll fix it as soon as I have a time. Sorry!</important>
+</h1>
